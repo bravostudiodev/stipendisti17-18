@@ -63,16 +63,16 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
-<<<<<<< HEAD
+
     public function actionNikolinaLjuboja()
     {
 	return  $this->render('nikolinaLjuboja');
-=======
+    }
 
     public function actionStefanDelic()
     {
         return $this->render('stefandelic');
->>>>>>> af44f34c66425d60dbee333dcda9c77f2af113f3
+
     }
 
 	 public function actionPetak()
