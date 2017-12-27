@@ -64,6 +64,10 @@ class SiteController extends Controller
         return $this->render('index');
     }
 
+    public function actionStefanDelic()
+    {
+        return $this->render('stefandelic');
+    }
 
 	 public function actionPetak()
     {
