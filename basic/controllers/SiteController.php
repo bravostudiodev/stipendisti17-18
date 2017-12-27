@@ -63,7 +63,10 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
-
+    public function actionNikolinaLjuboja()
+    {
+	return  $this->render('nikolinaLjuboja');
+    }
 
 	 public function actionPetak()
     {
