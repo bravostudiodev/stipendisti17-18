@@ -84,6 +84,12 @@ class SiteController extends Controller
     {
         return $this->render('nemanjastokuca');
 
+    
+	
+		public function actionBorislavBosnic()
+    {
+        return $this->render('borislavbosnic');
+
     }
 
 	 public function actionPetak()
