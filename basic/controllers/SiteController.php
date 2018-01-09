@@ -98,6 +98,12 @@ class SiteController extends Controller
 
     }
 
+	public function actionDraganIlic()
+	{
+		return $this->render('draganIlic');
+	}
+	
+	
 	 public function actionPetak()
     {
 
