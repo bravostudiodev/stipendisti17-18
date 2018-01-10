@@ -123,7 +123,10 @@ class SiteController extends Controller
 
        return $this->render('petak',['text' => "Jeste petak!"]);
     }
-
+	public function actionHelenaBrkanlic()
+	{
+		return $this->render('helenabrkanlic');
+	}
     /**
      * Login action.
      *
