@@ -102,9 +102,12 @@ class SiteController extends Controller
 	{
 		return $this->render('draganIlic');
 	}
-	
-	
-	 public function actionPetak()
+
+	public function actionPetarstojanovic()
+	{
+		return $this->render('petarStojanovic');
+	}
+        public function actionPetak()
     {
 
        return $this->render('petak',['text' => "Jeste petak!"]);
