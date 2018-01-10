@@ -132,6 +132,10 @@ class SiteController extends Controller
 	{
 		return $this->render('helenabrkanlic');
 	}
+	public function actionMilanBoroja()
+	{
+		return $this->render('milanboroja');
+	}
     /**
      * Login action.
      *
