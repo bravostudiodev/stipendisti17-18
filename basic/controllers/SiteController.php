@@ -112,6 +112,11 @@ class SiteController extends Controller
 	{
 		return $this->render('duskoDimitric');
 	}
+
+	public function actionDraganDjuric()
+	{
+		return $this->render('dragandjuric');
+	}
 	
         public function actionPetak()
     {
