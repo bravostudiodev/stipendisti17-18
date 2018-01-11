@@ -136,6 +136,12 @@ class SiteController extends Controller
 	{
 		return $this->render('milanboroja');
 	}
+	
+	public function actionRosaMarceta()
+	{
+		return $this->render('rosamarceta');
+	}
+	
     /**
      * Login action.
      *
